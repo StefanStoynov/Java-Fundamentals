@@ -1,4 +1,4 @@
-package Java_Advanced.Intro_to_Java;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
