@@ -1,4 +1,4 @@
-# Java-Fundamentals-Advanced
+# Java-Fundamentals
 1. Java Intro – Basic Syntax<br>
 2. Linear Data Structures – Arrays, Matrices, Stacks and Queues<br>
 3. Sets and Maps – Overview and basic operations. Different implementations<br>
@@ -10,4 +10,4 @@
 Lessons: **~30 hours** (onsite + videos)<br>
 Practical exercises (in class): **~40** hours<br>
 Exam preparation: 2*4 hours<br>
-Exam: **6** hours<br><br>
+Exam: **6** hours<br>
