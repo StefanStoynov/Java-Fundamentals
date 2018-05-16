@@ -6,7 +6,7 @@ public class CharacterMultiplier {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String[] words = scanner.nextLine().split(" ");
+        String[] words = scanner.nextLine().split("\\s+");
         int wordMin = Math.min(words[0].length(), words[1].length());
         int multiplayedSum = 0;
         for (int i = 0; i < wordMin; i++) {

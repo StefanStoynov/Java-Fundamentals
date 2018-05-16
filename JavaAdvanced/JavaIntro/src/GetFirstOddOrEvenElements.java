@@ -9,10 +9,10 @@ public class GetFirstOddOrEvenElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] nums = Arrays.stream(scanner.nextLine().split(" "))
+        int[] nums = Arrays.stream(scanner.nextLine().split("\\s+"))
                 .mapToInt(Integer::parseInt)
                 .toArray();
-        String[] condition = scanner.nextLine().split(" ");
+        String[] condition = scanner.nextLine().split("\\s+");
         String evenOrOdd = condition[2];
         int condition1 = Integer.parseInt(condition[1]);
 
