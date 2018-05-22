@@ -13,8 +13,12 @@ public class CountSymbols_04 {
         for (int i = 0; i <input.length() ; i++) {
             char ch = input.charAt(i);
            if (!charCounter.containsKey(ch)){
-               
+               charCounter.put(ch,0);
            }
+           charCounter.put(ch,charCounter.get(ch)+1);
+        }
+        for (Map.Entry<Character, Integer> entry : charCounter.entrySet()) {
+            System.out.printf("%s: %d time/s%n",entry.getKey(),entry.getValue());
         }
     }
 }
