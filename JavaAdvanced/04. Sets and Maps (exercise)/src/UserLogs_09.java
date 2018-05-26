@@ -35,10 +35,15 @@ public class UserLogs_09 {
         }
         for (Map.Entry<String, Map<String, Integer>> user : users.entrySet()) {
             System.out.println(user.getKey() + ": ");
-
-            for (Map.Entry<String,Integer> e: user.getValue().entrySet()) {
-                System.out.printf("%s => %d,%n",e.getKey(),e.getValue());
+            StringBuilder sb = new StringBuilder();
+            for (Map.Entry<String, Integer> e : user.getValue().entrySet()) {
+                sb.append(String.format("%s => %d, ", e.getKey(), e.getValue()));
             }
+            sb.deleteCharAt(sb.length()-1);
+            sb.deleteCharAt(sb.length()-1);
+
+            sb.append(".");
+            System.out.println(sb);
         }
     }
 }
