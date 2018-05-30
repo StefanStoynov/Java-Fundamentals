@@ -10,12 +10,12 @@ public class ExtractTags_06 {
         Pattern pattern = Pattern.compile("<.+?>");
 
 
-        while (true){
-            if ("END".equals(line= scanner.nextLine())){
+        while (true) {
+            if ("END".equals(line = scanner.nextLine())) {
                 break;
             }
             Matcher matcher = pattern.matcher(line);
-            while (matcher.find()){
+            while (matcher.find()) {
                 System.out.println(matcher.group());
             }
         }
