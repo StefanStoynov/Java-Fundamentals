@@ -21,7 +21,7 @@ public class p06_FilterStudentsByPhone {
             String lastName = tokens[1];
             String phoneNumber = tokens[2];
             String fullName = firstName + " " + lastName;
-            
+
             phoneBook.putIfAbsent(fullName, phoneNumber);
         }
         phoneBook
