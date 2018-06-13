@@ -1,4 +1,5 @@
-# Java-Advanced
+# Java-Fundamentals
+<h1>Java-Advanced</h1>
 1. Java Intro – Basic Syntax<br>
 2. Linear Data Structures – Arrays, Matrices, Stacks and Queues<br>
 3. Sets and Maps – Overview and basic operations. Different implementations<br>
@@ -12,7 +13,7 @@ Practical exercises (in class): **~40** hours<br>
 Exam preparation: 2*4 hours<br>
 Exam: **6** hours<br>
 <br>
-# OOP
+<h1>OOP</h1>
 1.Course Introduction – Course Program, Trainers, Exams, Resources<br>
 2.Defining Classes – Class structure, Object creation, Naming convention, Static members<br>
 3.Encapsulation – Properties, Encapsulating data, exceptions<br>
