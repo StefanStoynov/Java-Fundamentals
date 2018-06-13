@@ -1,4 +1,10 @@
 # Java-Fundamentals
+Course Overview:
+Lessons: <b>~64</b> hours (onsite)<br>
+Practical exercises (in class): <b>~64</b> hours<br>
+Exam preparation: <b>20</b> hours<br>
+Exam: <b>18</b> hours<br>
+<br>
 <h2>Java-Advanced</h2>
 1. Java Intro – Basic Syntax<br>
 2. Linear Data Structures – Arrays, Matrices, Stacks and Queues<br>
@@ -8,10 +14,10 @@
 6. Functional Programming – Functions, Function types (delegates, predicates, consumers), Lambda code formatting<br>
 7. Build-In Query Methods – Stream API – Introducing Stream API - advanced Stream methods (grouping, flatMap, ...)<br>
 <br>
-Lessons: **~30 hours** (onsite)<br>
-Practical exercises (in class): **~40** hours<br>
-Exam preparation: 2*4 hours<br>
-Exam: **6** hours<br>
+Lessons: <b>~30</b> hours** (onsite)<br>
+Practical exercises (in class): <b>~40</b> hours<br>
+Exam preparation: <b>8</b> hours<br>
+Exam: <b>6</b> hours<br>
 <br>
 <h2>OOP</h2>
 1.Course Introduction – Course Program, Trainers, Exams, Resources<br>
@@ -22,7 +28,7 @@ Exam: **6** hours<br>
 6.Interfaces and Abstraction – what is interface, what is abstraction<br>
 7.Workshop – Practical Workshop – Prelude to Java OOP Advanced<br>
 <br>
-Lessons: **~24 hours** (onsite)<br>
-Practical exercises (in class): **~24** hours<br>
-Exam preparation: 3*4 hours<br>
-Exam: **6** hours<br>
+Lessons: <b>~24</b> hours (onsite)<br>
+Practical exercises (in class): <b>~24</b> hours<br>
+Exam preparation: <b>12</b> hours<br>
+Exam: <b>6</b> hours<br>
