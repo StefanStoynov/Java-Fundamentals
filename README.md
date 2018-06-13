@@ -1,5 +1,5 @@
 # Java-Fundamentals
-<h2>Course Overview:</h2><br>
+<h2>Course Overview:</h2>
 Lessons: <b>~64</b> hours (onsite)<br>
 Practical exercises (in class): <b>~64</b> hours<br>
 Exam preparation: <b>20</b> hours<br>
