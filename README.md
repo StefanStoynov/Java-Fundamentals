@@ -1,10 +1,10 @@
 # Java-Fundamentals
-<h3>Course Overview:<h3><br>
+<h3>Course Overview:</h3><br>
 Lessons: <b>~64</b> hours (onsite)<br>
 Practical exercises (in class): <b>~64</b> hours<br>
 Exam preparation: <b>20</b> hours<br>
 Exam: <b>18</b> hours<br>
-Total: <b>~166<b> hours<br>
+Total: <b>~166</b> hours<br>
 <br>
 <h2>Java-Advanced</h2>
 1. Java Intro – Basic Syntax<br>
@@ -15,7 +15,7 @@ Total: <b>~166<b> hours<br>
 6. Functional Programming – Functions, Function types (delegates, predicates, consumers), Lambda code formatting<br>
 7. Build-In Query Methods – Stream API – Introducing Stream API - advanced Stream methods (grouping, flatMap, ...)<br>
 <br>
-Lessons: <b>~30</b> hours** (onsite)<br>
+Lessons: <b>~30</b> hours (onsite)<br>
 Practical exercises (in class): <b>~40</b> hours<br>
 Exam preparation: <b>8</b> hours<br>
 Exam: <b>6</b> hours<br>
