@@ -1,52 +1,80 @@
 package p09_Google;
 
+import java.util.LinkedList;
 import java.util.List;
 
 public class Person {
-    private String personName;
-    private Company company;
+    private String name;
     private Car car;
+    private Company company;
 
-    private List<Parents>parents;
-    private List<Chilren>chilren;
-    private List<Pokemon>pokemons;
+    private List<Parent> parent;
+    private List<Child> child;
+    private List<Pokemon> pokemon;
 
-    public Person(String personName) {
-        this.personName = personName;
+    public Person(String name) {
+        this.name = name;
+
+        this.parent = new LinkedList<>();
+        this.child = new LinkedList<>();
+        this.pokemon = new LinkedList<>();
     }
 
-    public Person(String personName, Company company) {
-        this.personName = personName;
-        this.company = company;
+    public String getName() {
+        return this.name;
     }
 
-    public Person(String personName, Company company, Car car) {
-        this.personName = personName;
-        this.company = company;
+    public void addParent(Parent parent) {
+        this.parent.add(parent);
+    }
+
+    public void addChild(Child child) {
+        this.child.add(child);
+    }
+
+    public void addPokemon(Pokemon pokemon) {
+        this.pokemon.add(pokemon);
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCar(Car car) {
         this.car = car;
     }
 
-    public Person(String personName, Company company, Car car, List<Parents> parents) {
-        this.personName = personName;
+    public void setCompany(Company company) {
         this.company = company;
-        this.car = car;
-        this.parents = parents;
     }
 
-    public Person(String personName, Company company, Car car, List<Parents> parents, List<Chilren> chilren) {
-        this.personName = personName;
-        this.company = company;
-        this.car = car;
-        this.parents = parents;
-        this.chilren = chilren;
-    }
 
-    public Person(String personName, Company company, Car car, List<Parents> parents, List<Chilren> chilren, List<Pokemon> pokemons) {
-        this.personName = personName;
-        this.company = company;
-        this.car = car;
-        this.parents = parents;
-        this.chilren = chilren;
-        this.pokemons = pokemons;
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.name).append(System.lineSeparator())
+                .append("Company:").append(System.lineSeparator());
+        if (this.company != null) {
+            sb.append(this.company).append(System.lineSeparator());
+        }
+        sb.append("Car:").append(System.lineSeparator());
+        if (this.car != null) {
+            sb.append(this.car).append(System.lineSeparator());
+        }
+        sb.append("Pokemon:").append(System.lineSeparator());
+        for (Pokemon pokemon : this.pokemon) {
+            sb.append(pokemon).append(System.lineSeparator());
+        }
+
+        sb.append("Parents:").append(System.lineSeparator());
+        for (Parent parent : this.parent) {
+            sb.append(parent).append(System.lineSeparator());
+        }
+        sb.append("Children:").append(System.lineSeparator());
+        for (Child child : this.child) {
+            sb.append(child).append(System.lineSeparator());
+        }
+
+        return sb.toString();
     }
 }
