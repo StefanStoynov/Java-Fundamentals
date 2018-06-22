@@ -14,6 +14,13 @@ public class Main {
         RadioDatabase radioDatabase = new RadioDatabase();
         while (countOfSongs-- > 0) {
             String[] songTokens = reader.readLine().split(";");
+            try {
+                if (songTokens.length!=3){
+                    throw new InvalidSongException("Invalid song.");
+                }
+            }catch (InvalidSongException iae){
+                System.out.println(iae.getMessage());
+            }
 
             try {
                 Song song = new Song(songTokens[0],songTokens[1]);
