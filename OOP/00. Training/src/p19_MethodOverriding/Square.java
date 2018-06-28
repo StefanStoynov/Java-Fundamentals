@@ -9,6 +9,6 @@ public class Square extends Rectangle{
 
     @Override
     protected double area() {
-        return super.area();
+        return this.sideA*this.sideA;
     }
 }
