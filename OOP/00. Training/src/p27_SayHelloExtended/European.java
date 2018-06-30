@@ -8,9 +8,4 @@ public class European extends BasePerson implements Person {
         super(name);
     }
 
-
-    @Override
-    public String sayHello() {
-        return "Hello";
-    }
 }

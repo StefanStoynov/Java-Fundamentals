@@ -18,4 +18,9 @@ public abstract class BasePerson implements Person {
         return this.name;
     }
 
+    @Override
+    public String sayHello() {
+        return "Hello";
+    }
+
 }
