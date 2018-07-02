@@ -17,4 +17,8 @@ public class Citizen implements Mammal{
     public String getBirthday() {
         return this.birthday;
     }
+
+    public String getName() {
+        return this.name;
+    }
 }
