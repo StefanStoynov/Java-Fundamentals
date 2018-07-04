@@ -69,4 +69,9 @@ public class HealthManager {
         //return String.format("Organism %s: Created cell %s in cluster %s",organismName,cellId,clusterId);
     }
 
+    public String activateCluster(String organismName){
+        organisms.get(organismName).getClusters();
+        return "";
+    }
+
 }
