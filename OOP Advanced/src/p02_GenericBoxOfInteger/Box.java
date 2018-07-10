@@ -1,4 +1,4 @@
-package p01_GenericBox;
+package p02_GenericBoxOfInteger;
 
 public class Box<T> {
     private T type;
@@ -9,6 +9,6 @@ public class Box<T> {
 
     @Override
     public String toString() {
-        return String.format("%s: %s",type.getClass().getName(), type);
+        return String.format("%s: %d",type.getClass().getName(), type);
     }
 }
