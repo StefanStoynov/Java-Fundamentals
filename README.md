@@ -2,9 +2,9 @@
 <h2>Course Overview:</h2>
 Lessons: <b>~84</b> hours (onsite)<br>
 Practical exercises (in class): <b>~96</b> hours<br>
-Exam preparation: <b>24</b> hours<br>
+Exam preparation: <b>32</b> hours<br>
 Exam: <b>24</b> hours<br>
-Total: <b>~204</b> hours<br>
+Total: <b>~212</b> hours<br>
 <br>
 <h2>Java-Advanced</h2>
 1. Java Intro – Basic Syntax<br>
@@ -48,6 +48,6 @@ Exam: <b>6</b> hours<br>
 <br>
 Lessons: <b>~30 hours</b> (onsite + videos)<br>
 Practical exercises (in class): <b>~32</b> hours<br>
-Exam preparation: <b>3*4</b> hours<br>
+Exam preparation: <b>12</b> hours<br>
 Exam: <b>6</b> hours
 
