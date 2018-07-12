@@ -1,10 +1,10 @@
 # Java-Fundamentals
 <h2>Course Overview:</h2>
-Lessons: <b>~64</b> hours (onsite)<br>
-Practical exercises (in class): <b>~64</b> hours<br>
-Exam preparation: <b>20</b> hours<br>
-Exam: <b>18</b> hours<br>
-Total: <b>~166</b> hours<br>
+Lessons: <b>~84</b> hours (onsite)<br>
+Practical exercises (in class): <b>~96</b> hours<br>
+Exam preparation: <b>24</b> hours<br>
+Exam: <b>24</b> hours<br>
+Total: <b>~204</b> hours<br>
 <br>
 <h2>Java-Advanced</h2>
 1. Java Intro – Basic Syntax<br>
@@ -33,3 +33,21 @@ Lessons: <b>~24</b> hours (onsite)<br>
 Practical exercises (in class): <b>~24</b> hours<br>
 Exam preparation: <b>12</b> hours<br>
 Exam: <b>6</b> hours<br>
+<br>
+<h2>OOP Advanced</h2>
+1.Course Introduction – Course Program, Trainers, Exams, Resources<br>
+2.Generics– Generics, Covariance, Contravariance<br>
+3.Iterators and Comparators – Iterator, Iterable, Comparator, Comparable<br>
+4.Enums and Annotations –What is enumeration. What is Annotation. Writing Annotations.<br>
+5.Reflection – Reflection. Reflection API - Class.forName, .newInstance(), getDeclaredFields(), …<br>
+6.Unit Testing– What are unit tests? Unit testing framework (JUnit 4).<br>
+7.Open/Closed, Liskov Substitution Principles– Aimed on extensible code<br>
+8.Interface Segregation, Dependency Inversion Principles– Aimed on loose coupling<br>
+9.Object Communication and Events– Middlewares, events - objects should know about minimum other objects<br>
+10.Open/Closed, Liskov Substitution Principles– Aimed on extensible code<br>
+<br>
+Lessons: <b>~30 hours</b> (onsite + videos)<br>
+Practical exercises (in class): <b>~32</b> hours<br>
+Exam preparation: <b>3*4</b> hours<br>
+Exam: <b>6</b> hours
+
