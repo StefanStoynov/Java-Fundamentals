@@ -1,6 +1,6 @@
 package p06_StrategyPattern;
 
-import java.util.Comparator;
+
 
 public class Person {
     private String name;
