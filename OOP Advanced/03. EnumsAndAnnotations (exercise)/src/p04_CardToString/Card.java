@@ -1,4 +1,4 @@
-package p03_CardsWithPower;
+package p04_CardToString;
 
 public class Card {
     private CardRanks card;
