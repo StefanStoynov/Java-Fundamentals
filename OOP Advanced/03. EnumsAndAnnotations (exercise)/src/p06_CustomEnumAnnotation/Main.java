@@ -1,5 +1,7 @@
 package p06_CustomEnumAnnotation;
 
+import p01_CardSuit.CardSuit;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +11,6 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String annotationName = reader.readLine();
-
         if ("Rank".equals(annotationName)){
            Class<CardRanks> cardRanksClass = CardRanks.class;
            printClassAnnotation(cardRanksClass);

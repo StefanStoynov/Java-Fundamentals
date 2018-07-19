@@ -8,7 +8,8 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
+        CardSuits hart = CardSuits.HEARTS;
+        System.out.println(hart.ordinal());
         String cardRank = reader.readLine();
         String cardSuit = reader.readLine();
 
