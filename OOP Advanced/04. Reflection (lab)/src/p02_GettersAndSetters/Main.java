@@ -29,10 +29,14 @@ public class Main {
         }
 
         for (Method getter : getters) {
-            System.out.println(String.format("%s will return %s", getter.getName(), getter.getReturnType().getSimpleName()));
+            System.out.println(String.format("%s will return %s",
+                    getter.getName(),
+                    getter.getReturnType().getSimpleName()));
         }
         for (Method setter : setters) {
-            System.out.println(String.format("%s and will set field of %s", setter.getName(), setter.getReturnType().getSimpleName()));
+            System.out.println(String.format("%s and will set field of %s",
+                    setter.getName(),
+                    setter.getReturnType().getSimpleName()));
         }
     }
 }
