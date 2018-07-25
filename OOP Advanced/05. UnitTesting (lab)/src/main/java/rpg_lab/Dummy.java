@@ -1,6 +1,8 @@
 package rpg_lab;
 
-public class Dummy {
+import Interfaces.Target;
+
+public class Dummy implements Target {
 
     private int health;
     private int experience;
@@ -21,7 +23,6 @@ public class Dummy {
 
         this.health -= attackPoints;
     }
-
     public int giveExperience() {
         if (!this.isDead()) {
             throw new IllegalStateException("Target is not dead.");
