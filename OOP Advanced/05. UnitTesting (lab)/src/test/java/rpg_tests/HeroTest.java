@@ -4,7 +4,6 @@ import Interfaces.Target;
 import Interfaces.Weapon;
 import org.junit.Assert;
 import org.junit.Test;
-import rpg_lab.Dummy;
 import rpg_lab.Hero;
 
 public class HeroTest {
@@ -50,15 +49,5 @@ public class HeroTest {
         Assert.assertEquals("Wrong experience", TARGET_XP, hero.getExperience());
     }
 
-    @Test
-    public void getExperience() {
-    }
 
-    @Test
-    public void getWeapon() {
-    }
-
-    @Test
-    public void attack() {
-    }
 }
