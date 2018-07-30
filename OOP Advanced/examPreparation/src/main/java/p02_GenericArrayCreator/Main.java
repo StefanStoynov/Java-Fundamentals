@@ -1,4 +1,4 @@
-package p01_JarOfT;
+package p02_GenericArrayCreator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,14 +8,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        Jar<String> jar = new Jar();
-        jar.add("gosho");
-        jar.add("ii");
-        jar.add("ss");
-        jar.add("aaa");
-        for (Object o : jar) {
-            System.out.println(o);
+        String[]arr = ArrayCreator.create(String.class,10,"ss");
+
+        for (String s : arr) {
+            System.out.println(s);
         }
-        System.out.println(jar.remove());
+
     }
 }
