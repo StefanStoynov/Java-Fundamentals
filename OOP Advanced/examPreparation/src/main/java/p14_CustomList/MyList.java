@@ -1,6 +1,7 @@
 package p14_CustomList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MyList<T extends Comparable<T>> implements CustomList<T>{
@@ -40,6 +41,9 @@ public class MyList<T extends Comparable<T>> implements CustomList<T>{
     }
     @Override
     public int countGreaterThan(T element) {
+        if (this.myList.isEmpty()) {
+            throw new IllegalArgumentException("No elements in the List");
+        }
         int count = 0;
         for (T e : myList) {
             if (e.compareTo(element) > 0) {
@@ -73,6 +77,14 @@ public class MyList<T extends Comparable<T>> implements CustomList<T>{
             }
         }
         return min;
+    }
+
+    @Override
+    public void sort() {
+        if (this.myList.isEmpty()) {
+            throw new IllegalArgumentException("No elements in the List");
+        }
+        Collections.sort(myList);
     }
 
     @Override

@@ -13,7 +13,6 @@ public class Main {
             if ("END".equals(line = reader.readLine())) {
                 break;
             }
-            System.out.println();
             String[]tokens  = line.split("\\s+");
             try {
                 switch (tokens[0]) {
@@ -40,6 +39,9 @@ public class Main {
                         break;
                     case"Greater":
                         System.out.println(myList.countGreaterThan(tokens[1]));
+                        break;
+                    case"Sort":
+                        myList.sort();
                         break;
                 }
             }catch (IllegalArgumentException iae){

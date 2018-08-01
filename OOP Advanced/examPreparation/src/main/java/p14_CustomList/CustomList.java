@@ -15,4 +15,6 @@ public interface CustomList<T extends Comparable<T>> {
     T getMax();
 
     T getMin();
+
+    void sort();
 }
