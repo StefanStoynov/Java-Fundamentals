@@ -2,9 +2,10 @@ package p14_CustomList;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
-public class MyList<T extends Comparable<T>> implements CustomList<T>{
+public class MyList<T extends Comparable<T>> implements CustomList<T>,Iterable<T>{
     private List<T> myList;
 
     public MyList() {
@@ -88,6 +89,11 @@ public class MyList<T extends Comparable<T>> implements CustomList<T>{
     }
 
     @Override
+    public Iterator<T> iterator() {
+        return myList.iterator();
+    }
+
+    @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (T t : myList) {
@@ -95,6 +101,7 @@ public class MyList<T extends Comparable<T>> implements CustomList<T>{
         }
         return sb.toString();
     }
+
 
 
 }
