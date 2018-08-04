@@ -44,9 +44,5 @@ public class Library<Book> implements Iterable<Book>{
            return books.get(counter++);
         }
 
-        @Override
-        public void remove() {
-
-        }
     }
 }
