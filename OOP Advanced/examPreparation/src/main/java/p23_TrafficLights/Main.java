@@ -11,7 +11,6 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         List<TraficLight> traficLights = new ArrayList<>();
         String[] lights = reader.readLine().split("\\s+");
-        System.out.println();
         for (String light : lights) {
             traficLights.add(new TraficLight(light));
         }
