@@ -51,3 +51,4 @@ Practical exercises (in class): <b>~32</b> hours<br>
 Exam preparation: <b>12</b> hours<br>
 Exam: <b>6</b> hours
 
+![mahirkoding_oop-1200x762_c](https://user-images.githubusercontent.com/33524282/47443114-584c0280-d7bc-11e8-856a-f6dcab95a6cf.jpg)
